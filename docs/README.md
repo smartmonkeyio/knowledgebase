@@ -1,5 +1,3 @@
 # SmartMonkey Support Center
 
-Welcome to SmartMonkey's Support Center.
-
-> An awesome project.
+Welcome to SmartMonkey's Support Center. In this page you'll find...
