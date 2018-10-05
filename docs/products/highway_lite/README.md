@@ -6,7 +6,7 @@ It’s easy, fast and reliable. </span>
 |    Product  | Description     |
 |-------------|-----------------|
 |    Type  | Extension for Google Spreadsheet [Try it for free](https://gsuite.google.com/marketplace/app/smartmonkey_optimizador_de_rutas_para_go/80526361570) |
-|    Pricing  | Freemium model. Free up to 10 stops and 1 vehicle. <br/>Advanced license for just 29.90€ with 100 stops and 3 vehicles.     |
+|    Pricing  | Freemium model. Free up to 10 stops and 1 vehicle. <br/>Check below for [Upgrade license options](#How-much-does-it-cost)     |
 |    Last update  | Oct 4 2018     |
 |    Contact  | [support@smartmonkey.io](mailto:support@smartmonkey.io)     |
 
@@ -96,7 +96,7 @@ With the button "Visualize the routes on a map" you can view the route on a Goog
 * [How much does it cost?](#How-much-does-it-cost) 
 
 ## Technology Used
-Highway Lite - Route optimizer uses the mighty tehchnology SmartMonkey Core to optimize the routes.<br/> 
+Highway Lite - Route optimizer uses the mighty technology SmartMonkey Core to optimize the routes.<br/> 
 Highway Lite uses Google maps aswell to geolocate the stops.  
 
 ## Solve Geolocation issues 
