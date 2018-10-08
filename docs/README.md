@@ -16,5 +16,5 @@ Welcome to SmartMonkey's **Support** Center. In this page you'll find informatio
 ## About SmartMonkey
  We optimize routes for logistic and service companies. Every day. 
 
-* www.smartmonkey.io
+* [www.smartmonkey.io](https://www.smartmonkey.io)
 * info@smartmonkey.io
