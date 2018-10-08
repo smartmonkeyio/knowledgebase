@@ -6,19 +6,13 @@ It’s easy, fast and reliable. </span>
 |    Product  | Description     |
 |-------------|-----------------|
 |    Type  | Extension for Google Spreadsheet [Try it for free](https://gsuite.google.com/marketplace/app/smartmonkey_optimizador_de_rutas_para_go/80526361570) |
-|    Pricing  | Freemium*     |
+|    Pricing  | Freemium model. Free up to 10 stops and 1 vehicle. <br/>Check below for [Upgrade license options](#How-much-does-it-cost)     |
 |    Last update  | Oct 4 2018     |
-|    Contact  | support@smartmonkey.io     |
+|    Contact  | [support@smartmonkey.io](mailto:support@smartmonkey.io)     |
 
 
 
-# Introduction 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vb5sQwxtLmg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-This quick video demonstrates how easy it is to optimize your routes with SmartMonkey Highway Lite. Video available on [Youtube](https://www.youtube.com/watch?v=vb5sQwxtLmg). 
-
-
-##Free plan##
+## Free plan ##
 The freemium service allow you to optimize routes for **10 stops and 1 vehicle**. 
 In order to increase this limits, you can upgrade your account directly on the add-on, or contact us at: sales@smartmonkey.io
 
@@ -27,27 +21,108 @@ In order to increase this limits, you can upgrade your account directly on the a
 - Google Maps integration supported. Share Google maps link for following the route on your mobile phone.
 
 
-**Try Highway Lite for free**. Free to use up to 10 vehicles.
+** Try Highway Lite for free **. Free to use up to 10 vehicles.
 Get it on Google Suite Marketplace.<br/>
-<a href="https://gsuite.google.com/marketplace/app/smartmonkey_optimizador_de_rutas_para_go/80526361570" target="_blank" style="font: bold 14px Arial; color:white; padding: 2px 6px 2px 6px;background-color: #FF8200;font-decoration:none">Try it now</a>  
+<a href="https://gsuite.google.com/marketplace/app/smartmonkey_optimizador_de_rutas_para_go/80526361570" target="_blank" style="font: bold 18px Arial; color:white; padding: 4px 8px 4px 8px;background-color: #FF8200;font-decoration:none; margin:4px">Try it now</a>  
 
-Highway Lite is a plugin for Google Spreadsheet developed by SmartMonkey that enables the power of route optimization to asdasd
-Formerly known as   powerful Route Optimizer with a easy uses the SmartMonkey Core to . 
-SmartMonkey.io Route Optimizer
+## Features ##
+* **Address geocoder**: Add any stop address and Highway detects magically its latitude and longitude.
+* **Multiple set of origins and destination** routes on each vehicle.
+* **Map view**: Delivery stops are displayed on a map.
+* **Time windows**: define the opening and closing times of each delivery stop to avoid visits during the closig times. 
+* **Order capacity**: Define capacity of each client in weight and volume.
+* **Multiple vehicle fleet**: define multiple vehicles in order to spread the visits. 
+* **Fleet time windows**: Define the operating schedule of each vehicle.
+* **Fleet capacity**: Define different capacities for each vehicle.
+* **Real time route optimizer**:  Our technology will process all data and will show you the best route in seconds.
+* **Google Maps route integration**
 
--> Advanced functioality. 
+# User Guide #
+* [Quick overview](#quick-overview) 
+* [Initial setup](#initial-setup) 
+* [Stops](#stops)
+* [Fleet](#fleet)
+* [Stop time](#stop-time)
+* [Results](#results)
 
-## FAQs about Highway Lite
 
-* [How does it work?](#test) 
-* [How does it work?](#Test)
-* [How does it work?](#Test)
-[How does it work?](#Test)
-[How does it work?](#Test)
-[How does it work?](#Test)
-[How does it work?](#Test)
-[How does it work?](#Test)
-[How does it work?](#Test)
-[Another question](#test-2)
+## Quick overview ##
+This quick video demonstrates how easy it is to optimize your routes with SmartMonkey Highway Lite. Video available on [Youtube](https://www.youtube.com/watch?v=vb5sQwxtLmg).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vb5sQwxtLmg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Lorem Ipsum 
+## Initial Setup ##
+To start using the Add-on please  install it first. Visit the [G Suite Marketplace](https://gsuite.google.com/marketplace) and look for SmartMonkey. Select the Add-on and press the button "LAUNCH". 
+
+A new Spread Sheet opens with Highway Lite installed. 
+
+Open the menu "Add-ons" to confirm that Highway is installed. If succesfully added, the SmartMonkey Add-on should appear on the list. 
+
+**Granting rights for current Sheet**<br/>
+If the menu item does have only one subitem "Help", it means that the Add-on has not enough rights to start.  
+Press the button "Manage Add-ons" and on the popup press the button "Manage" which will expand a menu. Select "Use in this document".
+This is needed for every new Sheet you start. 
+
+Now you should be able to see the following menu. If not, please reload the page. 
+![SmartMonkey Highway Lite Add-on menu](./images/add_on_menu.png)
+
+## Stops ##
+Press "Optimize route" on the submenu of Highway Lite. 
+![SmartMonkey Highway Lite Add-on menu](./images/add_on_menu_filled.png)
+
+When the Addon initiates it creates two tabs on the bottom: Stops and Fleet. 
+
+The Stops Sheet is filled with sample data. Here you should fill in your stops addresses. 
+
+On the right panel you'll find the button "Geocode" that will generate latitudes and longitudes for all the stops. 
+
+If a Stop can not be located Highway Lite generates a new Sheet titled "Stops not found". See FAQs below for information on how to solve Geolocation issues. 
+
+## Fleet ##
+Jumping to the next Sheet "Fleet" you are asked to fill in the location of your route origin and destination. Usually it is the warehouse or office address. 
+
+## Stop time ##
+On the next step you can configure the average time needed for the stops. Default value is set to 5 minutes. 
+
+## Results ##
+After the optimization a new Sheet "Results" is created. It contains the optimized route based on all previous parameters. 
+
+With the button "Visualize the routes on a map" you can view the route on a Google map. 
+
+
+
+# Frequent Asked Questions (FAQs)
+* [Which techhnology is used?](#technology-used) 
+* [How do I solve Geolocation issues? ](#solve-geolocation-issues) 
+* [How much does it cost?](#How-much-does-it-cost) 
+
+## Technology Used
+Highway Lite - Route optimizer uses the mighty technology SmartMonkey Core to optimize the routes.<br/> 
+Highway Lite uses Google maps aswell to geolocate the stops.  
+
+## Solve Geolocation issues 
+
+Highway Life uses Google maps for geolocation. If Google maps finds more matches for one stop, it will select the first one but it does not know which is closest to the user. 
+
+Watch a video on how to deal with Stops which could not be geolocated.
+
+It explains as well how to manually select the latitude and longitude from the URL for an optimal geolocation. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TCn2uVJchuc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
+
+## How much does it cost
+Highway Lite is marketed as a freemium model. You can use it anytime for free up to 10 stops and 1 vehicle.
+
+If you need an advanced license press the button **Upgrade** to open the pricing models dialogue. Upgrade license includes 100 stops and 3 vehicles. You can decide between three options for the duration of the license:
+* 1 day for just 4,99€ 
+* 1 month for just 29,90€
+* 1 year for just 299€
+
+![princing modalities](./images/pricing_payment.png)
+
+If you have any questions or requests please contact us. 
+
+If you add more than one vehicle or more than 100 stops, the system will display following dialogue:
+![Limit achieved](./images/limit_achieved.png)
+
+Press Yes to upgrade your license. 
+

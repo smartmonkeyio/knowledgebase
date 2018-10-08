@@ -1,5 +1,3 @@
-<span style="color:green">*Search field !!!!*</span>
-
 # SmartMonkey Support Center
 
 Welcome to SmartMonkey's **Support** Center. In this page you'll find information about all the SmartMonkey products. 
@@ -14,7 +12,8 @@ Welcome to SmartMonkey's **Support** Center. In this page you'll find informatio
 <span style="color:green">*In case you need further support check our Stackoverflow channels*</span> or contact our Support at <span style="color:green">*support@smartmonkey.io*</span>.
 
 ## About SmartMonkey
- We optimize routes for logistic and service companies. Every day. 
+ We optimize routes for logistic and service companies. Every day.<br/>
+ Visit our website for more details. 
 
 * [www.smartmonkey.io](https://www.smartmonkey.io)
 * info@smartmonkey.io
