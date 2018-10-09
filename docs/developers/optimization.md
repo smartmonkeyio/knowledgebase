@@ -214,3 +214,19 @@ In case of defining a `callback` value in the configuration, the response will b
       * arr_time: Arrival time in seconds since the start of the day.
   * missing: Ids of the services that could not be fit in any route
 
+## Quota
+
+On [console.smartmonkey.io](https://console.smartmonkey.io) allows you to set several options in order to limit the usage of a given API key. The configuration parameters are the following:
+### Call limits
+* **optimizerV1.enabled**: Optimization calls are enabled for the API key when set to `true`.
+* **optimizerV1.services**: Maximum number of services that can be defined in a single optimization call.
+* **optimizerV1.servicesReduced**: Maximum number of services that will be optimized. It is used when it's value is lower than `optimizerV1.services`. When used, a preprocessing phased is execute to filter out the least relevant tasks to the optimization result to have such number of tasks.
+* **optimizerV1.vehicles**: Maximum number of vehicles that can be defined in a single optimization call.
+### Daily limits
+* **optimizerV1.requests**: Maximum number of daily requests that can be executed with the API key.
+* **optimizerV1.services**: Total number of services that can be optimized in a single day with the API key.
+
+## Visualization and debugging
+At the **activity** section in your [console.smartmonkey.io/console/activity](https://console.smartmonkey.io/console/activity) you can see the input and output of the optimization. 
+
+![optimization results](_media/optimization_results.png)
