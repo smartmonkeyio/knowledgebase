@@ -5,7 +5,7 @@ Welcome to SmartMonkey's **Support** Center. In this page you'll find informatio
 ## Product guides
 |    Product  | Description     |
 |-------------|-----------------|
-| ![SmartMonkey Highway Lite](images/LITE_64px.png)| **[Highway Lite](products/highway_lite/README)**<br/>Optimize your routes using a Google Spreadsheet extension. [Read more](products/highway_lite/README) |
+| ![SmartMonkey Highway Lite](images/Highway_Lite_64.png)| **[Highway Lite](products/highway_lite/README)**<br/>Optimize your routes using a Google Spreadsheet extension. [Read more](products/highway_lite/README) |
 
 
 ## Further Support
