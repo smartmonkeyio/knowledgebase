@@ -18,7 +18,8 @@ The input of an optimization request consists of:
 1. Vehicles definition
 2. Services definition
 3. Reward regions
-4. Configuration
+4. Options
+5. Configuration
 
 ### Input format
 The input is structured in 4 main blocks:
@@ -140,6 +141,18 @@ Modify the reward of the services inside the defined region by adding the region
 * lng (required): GPS longitude of the center of the circle
 * radius (required): Radius of the circle
 * reward (required): Reward offset in the region, can be positive or negative
+
+### Options
+Additional options to the optimization:
+
+```json
+{
+  "max_wait_time": 300  // 5-minutes wait time
+}
+```
+
+#### Attributes:
+* max_wait_time (optional): Maximum waiting time allowed for a vehicle before performing a service in seconds _(default 0)_.
 
 ### Configuration
 
