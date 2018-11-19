@@ -95,6 +95,8 @@ With the button "Visualize the routes on a map" you can view the route on a Goog
 * [How do I solve Geolocation issues? ](#solve-geolocation-issues) 
 * [How much does it cost?](#How-much-does-it-cost) 
 
+Do you have more questions? Raise your doubts/improvements at [support@smartmonkey.io ](mailto:support@smartmonkey.io)
+
 ## Technology Used
 Highway Lite - Route optimizer uses the mighty technology SmartMonkey Core to optimize the routes.<br/> 
 Highway Lite uses Google maps aswell to geolocate the stops.  
