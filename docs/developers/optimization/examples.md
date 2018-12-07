@@ -199,9 +199,16 @@ In the input data we find three main fields:
 }
 ```
 
-## Capacited routing problem
+## Capacitated routing problem
+
+In this example we show how to setup an optimization problem with vehicles with one dimension. This dimension can interpreted as liters, kilograms, gallons... it is just a number. Make sure all vehicles and services have the same number of dimensions.
 
 ### Input
+
+**Description**
+
+In the example below we defined a vehicle with one dimension and capacity 4 in that dimension. Also we define two services with required dimensions of 4 and 5 respectively.
+
 **Raw**
 
 ```json
@@ -255,6 +262,10 @@ In the input data we find three main fields:
 
 ### Output
 
+**Description**
+
+In this case we have a service that could not be assigned because it does not fit in the vehicle as it has size 5 and the vehicle has size 4.
+
 **Raw**
 
 ```json
@@ -297,7 +308,14 @@ In the input data we find three main fields:
 ```
 
 ## Specifying service's vehicle restrictions
+
+This example shows how vehicle restrictions can be defined and how services are assigned to vehicles accordingly.
+
 ### Input
+
+**Description**
+
+We setup the problem with a vehicle delivering _Fanta_ and _Coke_ and two service requiring _Coke_ and _Pepsi_ respectively.
 
 **Raw**
 ```json
@@ -351,6 +369,10 @@ In the input data we find three main fields:
 ```
 ### Output
 
+**Description**
+
+The result contains a route with one stop because the stop requiring _Pepsi_ could not be served as the vehicle only provides _Fanta_ and _Coke_.
+
 **Raw**
 ```json
 {
@@ -392,7 +414,13 @@ In the input data we find three main fields:
 ```
 ## Defining pickup places
 
+This scenario has 2 vehicles and 2 services. Each service has a pickup place, therefore, 4 stops are required.
+
 ### Input
+
+**Description**
+
+Two services are defined both with a pickup to perform before being executed. The first service's pickup defines a pickup time of 10 seconds and also defines a time window for the pickup to be carried out.
 
 **Raw**
 ```json
@@ -474,6 +502,10 @@ In the input data we find three main fields:
 ```
 
 ### Output
+
+**Description**
+
+The solution has two routes, each vehicle performs one service with the corresponding pickup. The pickups are identified with step type _pickup_ and its _id_ is of the the form _pickup-service.id-index_.
 
 **Raw**
 ```json
