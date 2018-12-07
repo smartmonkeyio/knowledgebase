@@ -91,7 +91,7 @@ A vehicle is defined as follows:
 * start (optional): GPS coordinate of the vehicle's starting point.
 * end (optional): GPS coordinate of the vehicle's finish point.
 * capacity (optional): Capacity of the vehicle. It's an array of `n` dimensions.
-* timewindows (optional): Used to define the working hours of the vehicle.
+* timewindow (optional): Working hours of the vehicle.
 * provides (optional): List of types of services that can be performed by the vehicle.
 
 ### Services
