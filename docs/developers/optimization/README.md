@@ -59,7 +59,7 @@ The input data should be in JSON format in the following way:
       "reward": 100,
       "optional": true,
       "id": "s2557",
-      "size": [7, 5],
+      "size": [7, 5]
     }
   ]
 }
