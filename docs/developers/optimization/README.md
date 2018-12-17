@@ -100,24 +100,26 @@ A service is defined as follows:
 
 ```json
 {
-  "id": "client 1",
-  "location": {
+  "id": "client 1",                 // Required
+  "location": {                     // Required
     "lat": 3.564,
     "lng": 6.543
   },
-  "size": [1],
-  "timewindows": [[36000, 50400], [57600, 68400]],
-  "duration": 3600,
-  "reward": 100,
-  "optional": true,
-  "requires": ["fuel"],
-  "pickups": [{
-    "location": {
+  "size": [1],                      // Optional
+  "timewindows": [[36000, 50400], [57600, 68400]],  // Optional
+  "duration": 3600,                 // Optional
+  "reward": 100,                    // Optional
+  "optional": true,                 // Optional
+  "requires": ["fuel"],             // Optional
+  "pickups": [{                     // Optional
+    "id": "mypickup",               // Optional
+    "location": {                   // Required
         "lat": 41.3855048,
         "lng": 2.161903
     },
-    "duration": 10,
-    "timewindows": [[3600, 7200]]
+    "duration": 10,                 // Optional
+    "timewindows": [[3600, 7200]],  // Optional
+    "size": [1]                     // Optional
   }]
 }
 ```
@@ -131,7 +133,7 @@ A service is defined as follows:
 * reward (optional): Reward obtained by executing the service. Useful when there are different optional tasks and some are more important than the others.
 * optional (optional): States whether the task is mandatory or not (optional). When it is set to false, it will fail to find a solution if the service is can’t be placed in any route.
 * requires (optional): The service will be performed only by vehicles providing all the features included in this field.
-* pickups (optional) **(coming soon)**: pickup places are sites that must be visited be before executing the services. Each pickup must provide a GPS coordinate and optionally a duration and a time window.
+* pickups (optional) **(beta)**: pickup places are sites that must be visited be before executing the services. Each pickup must provide a GPS coordinate and optionally an id, a duration, time windows and size. The aggregated size of the pickups should not exceed the size of the service. If an id for the pickup is not provided a new pickup id will be automatically generated of the form _pickup-service.id-index_. No pickup id can start by 'pickup-' as could produce collisions.
 
 ### Reward regions
 Modify the reward of the services inside the defined region by adding the region's reward to service's reward.
