@@ -1,6 +1,6 @@
-# SmartMonkey Support Center
+# SmartMonkey Documentation
 
-Welcome to SmartMonkey's **Support** Center. In this page you'll find information about all the SmartMonkey products. 
+Welcome to SmartMonkey's **Documentation** Center. In this page you'll find information about all the SmartMonkey products and API. 
 
 ## Product guides
 |    Product  | Description     |
@@ -9,7 +9,7 @@ Welcome to SmartMonkey's **Support** Center. In this page you'll find informatio
 
 
 ## Further Support
-<span style="color:green">*In case you need further support check our Stackoverflow channels*</span> or contact our Support at <span style="color:green">*support@smartmonkey.io*</span>.
+In case you need further support contact our Support at <span style="color:green">*support@smartmonkey.io*</span>.
 
 ## About SmartMonkey
  We optimize routes for logistic and service companies. Every day.<br/>
