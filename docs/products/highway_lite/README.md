@@ -133,7 +133,7 @@ There is a manual way to create routes for multiple days.
 
 This video explains it:
 
-<iframe width="560" height="315" src="https://youtu.be/Sap-Dj5Ch74" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sap-Dj5Ch74" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 On this examnple we follow these instructions. 
 
