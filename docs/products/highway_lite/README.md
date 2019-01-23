@@ -119,7 +119,7 @@ If you need an advanced license press the button **Upgrade** to open the pricing
 * 1 month for just 29,90€
 * 1 year for just 299€
 
-![princing modalities](./images/pricing_payment.png)
+![pricing modalities](./images/pricing_payment.png)
 
 If you have any questions or requests please contact us. 
 
@@ -128,3 +128,23 @@ If you add more than one vehicle or more than 100 stops, the system will display
 
 Press Yes to upgrade your license. 
 
+## How do I create a day route (multiday route)
+There is a manual way to create routes for multiple days. 
+
+This video explains it:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sap-Dj5Ch74" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+On this examnple we follow these instructions. 
+
+1) First of all, we enter the time windows of the destinations (sheet "Stops") and name the vehicle "joe_monday" (sheet Fleet). Since we know that it's impossible to visit all places in one day. 
+
+2) Then we optimize the route and the system will assign the vehicle "joe_monday" to the stops (sheet "Stops") that can be visited on the first day. 
+
+3) Then we can clean the "Stops" sheet from the monday stops. We filter them and delete them. 
+
+4) Rename the "Results" seet to "Joe Monday". 
+
+5) Then we change the ID of the vehicle in the "Fleet" Sheet and optimize again with the remaining Stops. 
+
+6) A new sheet called "Results" appears with the Tuesday route optimized we can rename to "Joe Tuesday"
