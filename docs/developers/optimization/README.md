@@ -3,7 +3,7 @@
 ## Getting Started
 
 To use **SmartMonkey's Route Optimization API** you'll require to:
-1. Sign up at [SmartMonkey's Developers Console](https://console.smartmonkey.io)
+1. Sign up at [SmartMonkey's Developers Console](https://flake.smartmonkey.io)
 2. Create an API key.
 
 ## Endpoint
@@ -240,7 +240,7 @@ In case of defining a `callback` value in the configuration, the response will b
 
 ## Quota
 
-On [console.smartmonkey.io](https://console.smartmonkey.io) allows you to set several options in order to limit the usage of a given API key. The configuration parameters are the following:
+On [flake.smartmonkey.io](https://flake.smartmonkey.io) allows you to set several options in order to limit the usage of a given API key. The configuration parameters are the following:
 ### Call limits
 * **optimizerV1.enabled**: Optimization calls are enabled for the API key when set to `true`.
 * **optimizerV1.services**: Maximum number of services that can be defined in a single optimization call including the corresponding pickups if any.
@@ -252,6 +252,6 @@ On [console.smartmonkey.io](https://console.smartmonkey.io) allows you to set se
 * **optimizerV1.services**: Total number of services that can be optimized in a single day with the API key. This limit also includes the number of pickups defined in the services.
 
 ## Visualization and debugging
-At the **activity** section in your [console.smartmonkey.io/console/activity](https://console.smartmonkey.io/console/activity) you can see the input and output of the optimization. 
+At the **activity** section in your [flake.smartmonkey.io/console/activity](https://flake.smartmonkey.io/console/activity) you can see the input and output of the optimization. 
 
 ![optimization results](_media/optimization_results.png)
