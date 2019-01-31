@@ -91,6 +91,7 @@ With the button "Visualize the routes on a map" you can view the route on a Goog
 
 
 # Frequent Asked Questions (FAQs)
+* [How do I get started?](#how-do-I-get-started) 
 * [Which techhnology is used?](#technology-used) 
 * [How do I solve Geolocation issues? ](#solve-geolocation-issues) 
 * [How much does it cost?](#How-much-does-it-cost) 
@@ -99,8 +100,13 @@ With the button "Visualize the routes on a map" you can view the route on a Goog
 
 Do you have more questions? Raise your doubts/improvements at [support@smartmonkey.io ](mailto:support@smartmonkey.io)
 
+## How do I get started
+To get started using Highway Lite, our Google Spreadsheet plugin, watch the following video in English. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vb5sQwxtLmg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
+
+
 ## Technology Used
-Highway Lite - Route optimizer uses the mighty technology SmartMonkey Core to optimize the routes.<br/> 
+Highway Lite - Route optimizer uses the mighty technology [SmartMonkey API](developers/README) to optimize the routes.<br/> 
 Highway Lite uses Google maps aswell to geolocate the stops.  
 
 ## Solve Geolocation issues 
