@@ -22,10 +22,10 @@ In the following JSON input we define:
         "end": { "lat": 41.3870154, "lng": 2.1678584 }
     }],
     "services": [{
-        "id": "task1",
+        "id": "taskA",
         "location": { "lat": 41.3892478, "lng": 2.1706213 }
     }, {
-        "id": "task2",
+        "id": "taskB",
         "location": { "lat": 41.3855048, "lng": 2.161903 }
     }]
 }

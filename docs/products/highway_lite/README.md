@@ -148,3 +148,13 @@ On this examnple we follow these instructions.
 5) Then we change the ID of the vehicle in the "Fleet" Sheet and optimize again with the remaining Stops. 
 
 6) A new sheet called "Results" appears with the Tuesday route optimized we can rename to "Joe Tuesday"
+
+## How do I balance deliveries for several vehicles? 
+You can add the Capacity restriction to the vehicles to balance the deliveries between vehicles. 
+
+This video explains how to balance routes for several vehicles?: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ozsgi7dwmcI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Video available in Spanish (español):
+¿Cómo balancear entregas para varios vehículos?
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jIRYGUFk7vs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
