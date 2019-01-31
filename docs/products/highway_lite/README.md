@@ -94,6 +94,8 @@ With the button "Visualize the routes on a map" you can view the route on a Goog
 * [Which techhnology is used?](#technology-used) 
 * [How do I solve Geolocation issues? ](#solve-geolocation-issues) 
 * [How much does it cost?](#How-much-does-it-cost) 
+* [How do I create a multiday route?](#How-do-I-create-a-multiday-route) 
+* [How do I balance multiple vehicles?](#How-do-I-balance-multiple-vehicles) 
 
 Do you have more questions? Raise your doubts/improvements at [support@smartmonkey.io ](mailto:support@smartmonkey.io)
 
@@ -128,8 +130,8 @@ If you add more than one vehicle or more than 100 stops, the system will display
 
 Press Yes to upgrade your license. 
 
-## How do I create a day route (multiday route)
-There is a manual way to create routes for multiple days. 
+##How do I create a multiday route
+There is a manual way to create routes for multiple days (multiday route). 
 
 This video explains it:
 
@@ -149,7 +151,7 @@ On this examnple we follow these instructions.
 
 6) A new sheet called "Results" appears with the Tuesday route optimized we can rename to "Joe Tuesday"
 
-## How do I balance deliveries for several vehicles? 
+## How do I balance multiple vehicles?
 You can add the Capacity restriction to the vehicles to balance the deliveries between vehicles. 
 
 This video explains how to balance routes for several vehicles?: 
