@@ -101,7 +101,7 @@ With the button "Visualize the routes on a map" you can view the route on a Goog
 Do you have more questions? Raise your doubts/improvements at [support@smartmonkey.io ](mailto:support@smartmonkey.io)
 
 ## How do I get started
-To get started using Highway Lite, our Google Spreadsheet plugin, watch the following video in English. 
+To get started using Highway Lite, our Google Spreadsheet plugin, watch the following video in English and with spanish Subtitles (Español)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vb5sQwxtLmg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
 
 
