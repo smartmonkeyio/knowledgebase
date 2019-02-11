@@ -367,6 +367,8 @@ We setup the problem with a vehicle delivering _Fanta_ and _Coke_ and two servic
     ]
 }
 ```
+41.9793006,2.8199439
+
 ### Output
 
 **Description**
