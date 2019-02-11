@@ -12,7 +12,7 @@
     <!-- * [authentication](/developers/authentication.md) -->
     * [Getting Started](/developers/gettingStarted.md)
     * [Route Optimization API](/developers/optimization/README.md)
-        * [FAQs](/developers/optimization/FAQ)
-        * [Examples](/developers/optimization/examples)
-        * [Pricing](/developers/optimization/pricing)
+        * [FAQs](/developers/optimization/FAQ.md)
+        * [Examples](/developers/optimization/examples.md)
+        * [Pricing](/developers/optimization/pricing.md)
     * [Libraries](/developers/libraries/README.md)
