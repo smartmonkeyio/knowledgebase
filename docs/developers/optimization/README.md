@@ -255,3 +255,83 @@ On [flake.smartmonkey.io](https://flake.smartmonkey.io) allows you to set severa
 At the **activity** section in your [flake.smartmonkey.io/console/activity](https://flake.smartmonkey.io/console/activity) you can see the input and output of the optimization. 
 
 ![optimization results](_media/optimization_results.png)
+
+## Errors
+
+Error management is crucial in production environments and we encourage our users to handle them correctly. Error responses may have different causes:
+
+### Invalid input
+The API validates the received data and validates the data types. In all these cases the response will be sent with a status code 400.
+ - **Invalid structure**: When an element is missing on a request a response similar the to next one will be provided. In it we can appreciate that, in this case, the `vehicles` field is missing:
+```json
+{
+    "statusCode": 400,
+    "error": "Bad Request",
+    "message": "child \"vehicles\" fails because [\"vehicles\" is required]",
+    "validation": {
+        "source": "payload",
+        "keys": [
+            "vehicles"
+        ]
+    }
+}
+```
+
+- **Invalid types**: In case a field is provided with an invalid type an error will be provided. The following error states that the `id` of the first vehicle (index 0) should be a string.
+```json
+{
+    "statusCode": 400,
+    "error": "Bad Request",
+    "message": "child \"vehicles\" fails because [\"vehicles\" at position 0 fails because [child \"id\" fails because [\"id\" must be a string]]]",
+    "validation": {
+        "source": "payload",
+        "keys": [
+            "vehicles.0.id"
+        ]
+    }
+}
+```
+
+### Invalid key
+A response with request status of 400 will be provided when an invalid API key is used. The content of the response will be as follows:
+
+```json
+{
+    "message": "API key not found"
+}
+```
+
+### Not enough quota
+When the quota contracted or the quota assigned to the key is exceeded by the request will fail with an error code of 400 and the payload will contain the error message describing the error:
+
+```json
+{
+    "message": "Quota exceeded: Value of optimizerV1.services is 250 expected <= 20"
+}
+```
+
+### Duplicate ids
+Services and vehicles must be uniquely identified, when this restriction is broken a response with error code 400 and an error will be provided as follows:
+
+```json
+{
+    "message": "The following duplicate ids were found: 'Service 1'"
+}
+```
+
+### Incorrect service, vehicle and pickup dimensionality
+The following error message will be returned in the payload when the number of dimensions in the capacity of the vehicles, do not match with the number of dimensions of the services and pickups.
+
+```json
+{
+    "message": "All vehicles, services and pickups should have same number of dimensions in capacity and size"
+}
+```
+
+### Invalid time window
+In case the time window is not valid, an error message containing it will be returned:
+```json
+{
+    "message": "Error in timewindow [360,330] ending before starting"
+}
+```
