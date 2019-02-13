@@ -2,10 +2,13 @@
 
 Welcome to SmartMonkey's **Documentation** Center. In this page you'll find information about all the SmartMonkey products and API. 
 
-## Product guides
-|    Product  | Description     |
-|-------------|-----------------|
-| ![SmartMonkey Highway Lite](images/Highway_Lite_64.png)| **[Highway Lite](products/highway_lite/README)**<br/>Optimize your routes using a Google Spreadsheet extension. [Read more](products/highway_lite/README) |
+## Contents
+Products
+**[Highway Lite](products/highway_lite/README.md)
+**[Flake API](products/flake/README.md)
+
+API documentation
+**[Route Optimization API](developers/optimization/README.md)
 
 
 ## Further Support
