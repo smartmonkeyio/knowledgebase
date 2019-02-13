@@ -1,3 +1,5 @@
+# Highway Lite Pricing
+
 ## Free plan ##
 The freemium service allows you to optimize routes for **10 stops and 1 vehicle**. 
 In order to increase these limits, you can upgrade your account directly on the add-on, or contact us at: sales@smartmonkey.io

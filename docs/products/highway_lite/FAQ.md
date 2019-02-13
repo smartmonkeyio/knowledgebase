@@ -1,4 +1,4 @@
-# Frequent Asked Questions (FAQs)
+# Highway Lite FAQs
 
 * [How do I get started?](#how-do-I-get-started) 
 * [Which techhnology is used?](#technology-used) 
