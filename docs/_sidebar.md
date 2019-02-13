@@ -1,7 +1,7 @@
 * [Product documentation](/)
     * [Highway Lite](/products/highway_lite/README.md)
         * [FAQs](/products/highway_lite/FAQ.md)
-        * [Examples](/products/examples/examples.md)
+        * [Examples](/products/highway_lite/examples.md)
         * [Pricing](/products/highway_lite/pricing.md)
 
     * [Flake API](/products/flake/README.md)
