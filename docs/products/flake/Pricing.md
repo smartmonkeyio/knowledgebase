@@ -1,5 +1,5 @@
 # Flake Pricing
-Upgrade your Flake
+**Upgrade your Flake**
 Get full potential and powerful extras of the most trusted route optimizer by big corporations
 
 
