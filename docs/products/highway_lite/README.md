@@ -8,7 +8,6 @@ It’s easy, fast and reliable. </span>
 |    Type  | Extension for Google Spreadsheet [Try it for free](https://gsuite.google.com/marketplace/app/smartmonkey_optimizador_de_rutas_para_go/80526361570) |
 |    Pricing  | Freemium model. Free up to 10 stops and 1 vehicle. <br/>Check below for [Upgrade license options](#How-much-does-it-cost)     |
 |    Last update  | Oct 4 2018     |
-|    Contact  | [support@smartmonkey.io](mailto:support@smartmonkey.io)     |
  
 
 ## Last Updates ##
