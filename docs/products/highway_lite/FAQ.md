@@ -71,7 +71,10 @@ Video available in Spanish (español):
 Before considering to uninstall our product please contact us with our Chat on [www.smartmonkey.io](https://www.smartmonkey.io) or write an e-mail at support@smartmonkey.io. We are happy to help you. 
 
 1) Open any google sheet at [Google Sheets](https://docs.google.com/spreadsheets).
-2) On the **Add-ons** menu please select the option **Manage Add-ons...** (in spanish Complementos > **Administrar Complementos...**)
+
+2) On the **Add-ons** menu please select the option **Manage Add-ons...** (in spanish **Complementos** > **Administrar Complementos...**).
+
 3) The Add-ons window opens showing a list. If you want to uninstall Route Optimizer - SmartMonkey please select the button **Manage** (**Administrar**) on the right side. From the menu select the option **Remove** (Eliminar).
+
 That's it. If you refresh your page the Add-on does no appear anymore on the list. 
 
