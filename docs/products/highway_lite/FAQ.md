@@ -6,7 +6,7 @@
 * [How much does it cost?](#how-much-does-it-cost) 
 * [How do I create a multiday route?](#how-do-I-create-a-multiday-route) 
 * [How do I balance multiple vehicles?](#how-do-I-balance-multiple-vehicles) 
-* [How do I uninstall the Addon?](#how-do-I-uninstall-the-sheet-addon) 
+* [How do I uninstall the Addon?](#how-do-I-uninstall-the-addon) 
 
 Do you have more questions? Raise your doubts/improvements at [support@smartmonkey.io ](mailto:support@smartmonkey.io)
 
@@ -67,6 +67,7 @@ Video available in Spanish (español):
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jIRYGUFk7vs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## How do I uninstall the Addon
+
 Before considering to uninstall our product please contact us with our Chat on [www.smartmonkey.io](https://www.smartmonkey.io) or write an e-mail at support@smartmonkey.io. We are happy to help you. 
 
 1) Open any google sheet at [Google Sheets](https://docs.google.com/spreadsheets).
