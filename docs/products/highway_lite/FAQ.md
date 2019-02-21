@@ -3,9 +3,10 @@
 * [How do I get started?](#how-do-I-get-started) 
 * [Which techhnology is used?](#technology-used) 
 * [How do I solve Geolocation issues? ](#solve-geolocation-issues) 
-* [How much does it cost?](#How-much-does-it-cost) 
-* [How do I create a multiday route?](#How-do-I-create-a-multiday-route) 
-* [How do I balance multiple vehicles?](#How-do-I-balance-multiple-vehicles) 
+* [How much does it cost?](#how-much-does-it-cost) 
+* [How do I create a multiday route?](#how-do-I-create-a-multiday-route) 
+* [How do I balance multiple vehicles?](#how-do-I-balance-multiple-vehicles) 
+* [How do I uninstall the Addon?](#how-do-I-uninstall-the-sheet-addon) 
 
 Do you have more questions? Raise your doubts/improvements at [support@smartmonkey.io ](mailto:support@smartmonkey.io)
 
@@ -28,10 +29,12 @@ It explains as well how to manually select the latitude and longitude from the U
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TCn2uVJchuc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
 
-## How much does it cost
+## how much does it cost
+
 See [pricing section](products/highway_lite/pricing.md) for more details.
 
 ## How do I create a multiday route
+
 There is a manual way to create routes for multiple days (multiday route). 
 
 This video explains it:
@@ -52,7 +55,8 @@ On this examnple we follow these instructions.
 
 6) A new sheet called "Results" appears with the Tuesday route optimized we can rename to "Joe Tuesday"
 
-## How do I balance multiple vehicles?
+## How do I balance multiple vehicles
+
 You can add the Capacity restriction to the vehicles to balance the deliveries between vehicles. 
 
 This video explains how to balance routes for several vehicles?: 
@@ -61,3 +65,12 @@ This video explains how to balance routes for several vehicles?:
 Video available in Spanish (español):
 ¿Cómo balancear entregas para varios vehículos?
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jIRYGUFk7vs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## How do I uninstall the Addon
+Before considering to uninstall our product please contact us with our Chat on [www.smartmonkey.io](https://www.smartmonkey.io) or write an e-mail at support@smartmonkey.io. We are happy to help you. 
+
+1) Open any google sheet at [Google Sheets](https://docs.google.com/spreadsheets).
+2) On the **Add-ons** menu please select the option **Manage Add-ons...** (in spanish Complementos > **Administrar Complementos...**)
+3) The Add-ons window opens showing a list. If you want to uninstall Route Optimizer - SmartMonkey please select the button **Manage** (**Administrar**) on the right side. From the menu select the option **Remove** (Eliminar).
+That's it. If you refresh your page the Add-on does no appear anymore on the list. 
+
