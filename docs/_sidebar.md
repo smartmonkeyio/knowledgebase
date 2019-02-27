@@ -6,7 +6,7 @@
 
     * [Flake API](/products/flake/README.md)
         * [FAQs](/products/flake/FAQ.md)
-        * [Pricing](/products/flake/pricing.md)
+        * [Pricing](/products/flake/pricing_flake.md) 
 
 * [API documentation](/developers/README.md)
     <!-- * [authentication](/developers/authentication.md) -->
