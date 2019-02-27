@@ -1,11 +1,3 @@
 # Getting started
-In this section we describe the first steps necessary to start using SmartMonkey's API:
-
-## Sign up
-Go to [flake.smartmonkey.io](https://flake.smartmonkey.io) and select `CREATE ACCOUNT` option in the top right of the screen. Enter personal details and validate your email address.
-
-## Create a new API key
-1. Login at [flake.smartmonkey.io](https://flake.smartmonkey.io).
-2. Click the round shaped _plus_ button to add a key.
-![create key image](_media/create_key.png)
-3. Enter _name_ and _tags_.
+In this section we describe the details about using the different APIs. 
+For more details about Flake check the Flake section on Product documentation. 
