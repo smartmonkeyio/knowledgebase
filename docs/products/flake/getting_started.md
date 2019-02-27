@@ -16,19 +16,23 @@ Flake allows to manage your account with different options:
 - Login
 - Forgot password
 
-**Register
+**Register**
+
 Register at [Flake home](https://flake.smartmonkey.io) or [Register page](https://flake.smartmonkey.io/register). You will receive an email with a link to validate your account. 
 
-**Login
+**Login**
+
 Login at [Flake home](https://flake.smartmonkey.io) or [Login page](https://flake.smartmonkey.io/login). 
 
-**Forgot password
+**Forgot password**
+
 If you forgot your password you can use the link Forgot password in the [Login page](https://flake.smartmonkey.io/login) or you can go directly to [Reset password page](https://flake.smartmonkey.io/reset-password). There you can enter your email address to request a link to create a new password.
 
 ## API Key
 Once you are logged into Flake on the [Keys page](https://flake.smartmonkey.io/console/keys) you have the list of keys that displays the available keys that are stored in the system for the user. 
 
-**Create key
+**Create key**
+
 You can create a key by pressing the button CREATE. A dialogue appears with different options:
 - Name: name of the key
 - Tag (optional): you can add tags to the key. 
@@ -45,4 +49,5 @@ The test mode is a property of an API Key and it can be activated and deactivate
 From the KEYS page you can see the created keys and their properties. There is a column Test mode to activate/deactivate the test mode for a key. 
 
 **Test mode request**
+
 On the REQUEST page the test mode requests are marked with the label "test mode". 
