@@ -1,6 +1,6 @@
 # Welcome to the developers page
 
-In this pages you'll find information about our APIs:
+In these pages you will find information about our APIs:
 
 * [Getting Started](developers/gettingStarted)
 * [Optimization API](developers/optimization/README)
