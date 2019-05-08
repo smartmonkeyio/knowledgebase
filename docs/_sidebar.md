@@ -5,8 +5,8 @@
         * [Pricing](/products/highway_lite/pricing.md)
 
     * Highway
-        * [Ayuda (castellano)](/products/Highway/README_ES.md)
-        * [Help (english)](/products/Highway/README_EN.md)
+        * [Ayuda (castellano)](/products/highway/help_es.md)
+        * [Help (english)](/products/highway/help_en.md)
 
     * [Flake API](/products/flake/README.md)
         * [Getting started](/products/flake/getting_started.md)
