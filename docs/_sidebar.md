@@ -4,7 +4,7 @@
         * [Examples](/products/highway_lite/examples.md)
         * [Pricing](/products/highway_lite/pricing.md)
 
-    * [Highway]
+    * Highway
         * [Ayuda (castellano)](/products/Highway/README_ES.md)
         * [Help (english)](/products/Highway/README_EN.md)
 
