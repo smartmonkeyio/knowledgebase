@@ -4,6 +4,8 @@
         * [Examples](/products/highway_lite/examples.md)
         * [Pricing](/products/highway_lite/pricing.md)
 
+    * [Highway](/products/Highway/README.md)
+
     * [Flake API](/products/flake/README.md)
         * [Getting started](/products/flake/getting_started.md)
         * [FAQs](/products/flake/FAQ.md)
