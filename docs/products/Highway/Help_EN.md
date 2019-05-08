@@ -4,13 +4,16 @@
 Highway is capable of processing Excel files (XLS y XLSX) with a predefined standard format of columns by SmartMonkey.
 
 ## Download template to fill your list of services and vehicles
-En la página inicial se puede descargar la plantilla bajo el enlace "Descargar la plantilla". 
+On the Optimizer page there is a link to download the template "Download template". 
 
-## Problemas con el archivo de servicios 
-Highway utiliza un formato predefinido por SmartMonkey. Si tiene problemas con el formato del archivo siga los siguientes pasos. 
-* **"La página X no existe en el documento que has subido."**
-Este mensaje de error es debido a que las páginas principales del archivo no tienen el nombre necesario. El documento tiene que contener la página "services" y "vehicles" (ambos nombres en minúscula) para poder procesar los datos. 
-* **"La columna X no existe en la página Y del documento que has subido."** 
-Este mensaje de error es debido a que  las columnas necesarias para los servicios o los vehículos no estan disponibles o tienen nombres diferentes. 
-* **"El formato de la columna X no es válido“** 
-Este mensaje de error es debido a que los datos esperados dentro de las columnas no se corresponden con el formato esperado. 
+## Troubleshooting the file upload 
+Highway works with a predefined format by SmartMonkey. If there are problems with the upload follow these steps: 
+
+* **"The page X does not exist in the uploaded document."**
+This error message is triggered because the main sheets do not have the defined name. The document must have the Sheets "services" and "vehicles" (both in lowercase) to process the data. 
+
+* **"The column X does not exist in the Y sheet from the uploaded document."** 
+This error message is triggered because the needed columns for the services and the vehicles are not available or have different names.  
+
+* **"The format of the column X is not valid“** 
+This error message is triggered because the expectated data within the columns does not match the expected format. 
