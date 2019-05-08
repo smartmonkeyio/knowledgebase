@@ -1,9 +1,9 @@
 # Highway help
 
 ## Upload file with list of services and vehicles
-Highway es capaz de leer archivos de Excel (XLS y XLSX) con un formato de columnas estándar definido por SmartMonkey.
+Highway is capable of processing Excel files (XLS y XLSX) with a predefined standard format of columns by SmartMonkey.
 
-## Descargar plantilla para lista de servicios y vehículos
+## Download template to fill your list of services and vehicles
 En la página inicial se puede descargar la plantilla bajo el enlace "Descargar la plantilla". 
 
 ## Problemas con el archivo de servicios 
