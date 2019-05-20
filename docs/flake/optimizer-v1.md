@@ -3,7 +3,7 @@
 ## Getting Started
 
 To use **SmartMonkey's Route Optimization API** you'll require to:
-1. Sign up at [SmartMonkey's Developers Console](https://flake.smartmonkey.io)
+1. Sign up at [SmartMonkey's Flake](https://flake.smartmonkey.io)
 2. Create an API key.
 
 ## Endpoint
@@ -158,12 +158,14 @@ Additional options to the optimization:
 
 ```json
 {
-  "max_wait_time": 300  // 5-minutes wait time
+  "max_wait_time": 300,  // 5-minutes wait time
+  "matrix_multiplier": 1.25, // Increase the travel time between places by 25%
 }
 ```
 
 #### Attributes:
 * max_wait_time (optional): Maximum waiting time allowed for a vehicle before performing a service in seconds _(default 0)_.
+* matrix_multiplier (optional): Multiply the travel time by a custom factor to fake the traffic effect. _(default 1)_.
 
 ### Configuration
 

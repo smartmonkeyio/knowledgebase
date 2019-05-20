@@ -4,9 +4,9 @@ Welcome to SmartMonkey's **Documentation** Center. In this page you'll find info
 
 ## Contents
 **Products**
-* [Highway Lite](products/highway_lite/README.md)
-* [Highway](products/highway/README.md)
-* [Flake](products/flake/README.md)
+* [Highway Lite](highway_lite/README.md)
+* [Highway](highway/README.md)
+* [Flake](flake/README.md)
 
 **API documentation**
 * [Route Optimization API](developers/optimization/README.md)

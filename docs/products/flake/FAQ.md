@@ -1,3 +1,0 @@
-# Flake FAQs
-
-Under construction. 

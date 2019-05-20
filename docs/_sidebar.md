@@ -1,21 +1,21 @@
-* [Product documentation](/)
-    * [Highway Lite](/products/highway_lite/README.md)
-        * [FAQs](/products/highway_lite/FAQ.md)
-        * [Examples](/products/highway_lite/examples.md)
-        * [Pricing](/products/highway_lite/pricing.md)
+- SmartMonkey Docs
+    - [Index](/)
+- Highway Lite
+    - [Getting Started](/highway_lite/getting_started.md)
+    <!-- - [Examples](/highway_lite/examples.md) -->
+    - [Pricing](/highway_lite/pricing.md)
+    - [FAQs](/highway_lite/FAQ.md)
 
-    * [Highway](/products/highway/help_es.md)
-        * [Ayuda (castellano)](/products/highway/help_es.md)
-        * [Help (english)](/products/highway/help_en.md)
+- Flake
+    <!-- - [authentication](/flake/authentication.md) -->
+    - [Getting Started](/flake/getting_started.md)
+    - [Route Optimizer V1](/flake/optimizer-v1.md)
+    <!-- - [Places Profiler V1](/flake/optimization/README.md) -->
+    - [Examples](/flake/examples.md)
+    - [FAQs](/flake/FAQ.md)
+    <!-- - [Pricing](/flake/pricing.md) -->
+    - [Integrations](/flake/integrations.md)
 
-    * [Flake API](/products/flake/README.md)
-        * [Getting started](/products/flake/getting_started.md)
-        * [FAQs](/products/flake/FAQ.md)
-
-* [API documentation](/developers/README.md)
-    <!-- * [authentication](/developers/authentication.md) -->
-    * [Getting Started](/developers/gettingStarted.md)
-    * [Route Optimization API](/developers/optimization/README.md)
-        * [FAQs](/developers/optimization/FAQ.md)
-        * [Examples](/developers/optimization/examples.md)
-    * [Libraries](/developers/libraries/README.md)
+- Highway
+    <!-- - [Ayuda (castellano)](/highway/help_es.md) -->
+    - [Help](/highway/help_en.md)
