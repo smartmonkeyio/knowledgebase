@@ -1,4 +1,4 @@
-# SmartMonkey's Route Optimization API
+# Route Optimization API
 
 ## Getting Started
 
@@ -87,12 +87,12 @@ A vehicle is defined as follows:
 ```
 
 #### Attributes:
-* id (required): Unique id for the vehicle.
-* start (optional): GPS coordinate of the vehicle's starting point.
-* end (optional): GPS coordinate of the vehicle's finish point.
-* capacity (optional): Capacity of the vehicle. It's an array of `n` dimensions.
-* timewindow (optional): Working hours of the vehicle.
-* provides (optional): List of types of services that can be performed by the vehicle.
+* **id** (required): Unique id for the vehicle.
+* **start** (optional): GPS coordinate of the vehicle's starting point.
+* **end** (optional): GPS coordinate of the vehicle's finish point.
+* **capacity** (optional): Capacity of the vehicle. It's an array of `n` dimensions.
+* **timewindow** (optional): Working hours of the vehicle.
+* **provides** (optional): List of types of services that can be performed by the vehicle.
 
 ### Services
 
@@ -111,6 +111,7 @@ A service is defined as follows:
   "reward": 100,                    // Optional
   "optional": true,                 // Optional
   "requires": ["fuel"],             // Optional
+  "cluster": "cluster1",            // Optional
   "pickups": [{                     // Optional
     "id": "mypickup",               // Optional
     "location": {                   // Required
@@ -125,15 +126,16 @@ A service is defined as follows:
 ```
 
 #### Attributes:
-* id (required): Unique id for the service
-* location (required): Place to execute the service.
-* size (optional): Size or space required in the vehicle for this job. It should have as many as dimensions as the vehicles have.
-* timewindows (optional): Time when the tasks can be executed. List of start and end times defined in seconds since the start of the day. The example above has 2 time windows to make the visit from 10am to 2pm and from 4pm to 7pm. 
-* duration (optional): Duration of the service in seconds
-* reward (optional): Reward obtained by executing the service. Useful when there are different optional tasks and some are more important than the others.
-* optional (optional): States whether the task is mandatory or not (optional). When it is set to false, it will fail to find a solution if the service is can’t be placed in any route.
-* requires (optional): The service will be performed only by vehicles providing all the features included in this field.
-* pickups (optional) **(beta)**: pickup places are sites that must be visited be before executing the services. Each pickup must provide a GPS coordinate and optionally an id, a duration, time windows and size. The aggregated size of the pickups should not exceed the size of the service. If an id for the pickup is not provided a new pickup id will be automatically generated of the form _pickup-service.id-index_. No pickup id can start by 'pickup-' as could produce collisions.
+* **id** (required): Unique id for the service
+* **location** (required): Place to execute the service.
+* **size** (optional): Size or space required in the vehicle for this job. It should have as many as dimensions as the vehicles have.
+* **timewindows** (optional): Time when the tasks can be executed. List of start and end times defined in seconds since the start of the day. The example above has 2 time windows to make the visit from 10am to 2pm and from 4pm to 7pm. 
+* **duration** (optional): Duration of the service in seconds
+* **reward** (optional): Reward obtained by executing the service. Useful when there are different optional tasks and some are more important than the others.
+* **optional** (optional): States whether the task is mandatory or not (optional). When it is set to false, it will fail to find a solution if the service is can’t be placed in any route.
+* **requires** (optional): The service will be performed only by vehicles providing all the features included in this field.
+* **cluster** (optional) **\[NEW\]**: A cluster is a tag shared by a group of services. All services containing a same tag will fall in the same route.
+* **pickups** (optional): pickup places are sites that must be visited be before executing the services. Each pickup must provide a GPS coordinate and optionally an id, a duration, time windows and size. The aggregated size of the pickups should not exceed the size of the service. If an id for the pickup is not provided a new pickup id will be automatically generated of the form _pickup-service.id-index_. No pickup id can start by 'pickup-' as could produce collisions.
 
 ### Reward regions
 Modify the reward of the services inside the defined region by adding the region's reward to service's reward.
@@ -148,10 +150,10 @@ Modify the reward of the services inside the defined region by adding the region
 ```
 
 #### Attributes:
-* lat (required): GPS latitude of the center of the circle
-* lng (required): GPS longitude of the center of the circle
-* radius (required): Radius of the circle
-* reward (required): Reward offset in the region, can be positive or negative
+* **lat** (required): GPS latitude of the center of the circle
+* **lng** (required): GPS longitude of the center of the circle
+* **radius** (required): Radius of the circle
+* **reward** (required): Reward offset in the region, can be positive or negative
 
 ### Options
 Additional options to the optimization:
@@ -164,8 +166,8 @@ Additional options to the optimization:
 ```
 
 #### Attributes:
-* max_wait_time (optional): Maximum waiting time allowed for a vehicle before performing a service in seconds _(default 0)_.
-* matrix_multiplier (optional): Multiply the travel time by a custom factor to fake the traffic effect. _(default 1)_.
+* **max_wait_time** (optional): Maximum waiting time allowed for a vehicle before performing a service in seconds _(default 0)_.
+* **matrix_multiplier** (optional): Multiply the travel time by a custom factor to fake the traffic effect. _(default 1)_.
 
 ### Configuration
 
@@ -176,8 +178,8 @@ Additional options to the optimization:
 }
 ```
 #### Attributes:
-* wait (optional): True in order to wait for the optimization to finish. Defaults to true when a callback is not defined.
-* callback (optional): Callback address to submit the optimization result once finished. `wait` should be false.
+* **wait** (optional): True in order to wait for the optimization to finish. Defaults to true when a callback is not defined.
+* **callback** (optional): Callback address to submit the optimization result once finished. `wait` should be false.
 
 In case of setting the configuration field `wait` to `false` the result of the optimization can be fetched with a GET request to:
 
@@ -225,20 +227,20 @@ In case of defining a `callback` value in the configuration, the response will b
 
 #### Attributes
 
-* status: Status of the optimization
-* process_time: Time spend computing the result
-* job_id: Unique identifier of the job
-* solution: Solution consisting of 0 or more routes
-  * routes: 
-    * geometry: Geometry of the route as a [polyline](https://developers.google.com/maps/documentation/utilities/polylinealgorithm)
-    * vehicle_id: Id of the vehicle that has to execute the route
-    * steps: Array of steps to execute the route
-      * id: Id of the service
-      * dep_time: Departure time in seconds since the start of the day.
-      * type: Type of stop
-      * distance: Distance from the previous step to the current one.
-      * arr_time: Arrival time in seconds since the start of the day.
-  * missing: Ids of the services that could not be fit in any route
+* **status**: Status of the optimization
+* **process_time**: Time spend computing the result
+* **job_id**: Unique identifier of the job
+* **solution**: Solution consisting of 0 or more routes
+  * **routes**: 
+    * **geometry**: Geometry of the route as a [polyline](https://developers.google.com/maps/documentation/utilities/polylinealgorithm)
+    * **vehicle_id**: Id of the vehicle that has to execute the route
+    * **steps**: Array of steps to execute the route
+      * **id**: Id of the service
+      * **dep_time**: Departure time in seconds since the start of the day.
+      * **type**: Type of stop
+      * **distance**: Distance from the previous step to the current one.
+      * **arr_time**: Arrival time in seconds since the start of the day.
+  * **missing**: Ids of the services that could not be fit in any route
 
 ## Quota
 

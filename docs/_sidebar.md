@@ -10,8 +10,9 @@
     <!-- - [authentication](/flake/authentication.md) -->
     - [Getting Started](/flake/getting_started.md)
     - [Route Optimizer V1](/flake/optimizer-v1.md)
-    <!-- - [Places Profiler V1](/flake/optimization/README.md) -->
+    <!-- - [Place Profiler V1](/flake/place-profiler-v1.md) -->
     - [Examples](/flake/examples.md)
+    <!-- - [Places Profiler V1](/flake/optimization/README.md) -->
     - [FAQs](/flake/FAQ.md)
     <!-- - [Pricing](/flake/pricing.md) -->
     - [Integrations](/flake/integrations.md)
