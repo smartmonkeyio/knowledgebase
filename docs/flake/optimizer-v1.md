@@ -112,6 +112,7 @@ A service is defined as follows:
   "optional": true,                 // Optional
   "requires": ["fuel"],             // Optional
   "cluster": "cluster1",            // Optional
+  "assign_to": ["vehicle1"],        // Optional
   "pickups": [{                     // Optional
     "id": "mypickup",               // Optional
     "location": {                   // Required
@@ -135,6 +136,7 @@ A service is defined as follows:
 * **optional** (optional): States whether the task is mandatory or not (optional). When it is set to false, it will fail to find a solution if the service is can’t be placed in any route.
 * **requires** (optional): The service will be performed only by vehicles providing all the features included in this field.
 * **cluster** (optional) **\[NEW\]**: A cluster is a tag shared by a group of services. All services containing a same tag will fall in the same route.
+* **assign_to** (optional) **\[NEW\]**: Add a list of all the possible vehicle ids in which this particular service can be included.
 * **pickups** (optional): pickup places are sites that must be visited be before executing the services. Each pickup must provide a GPS coordinate and optionally an id, a duration, time windows and size. The aggregated size of the pickups should not exceed the size of the service. If an id for the pickup is not provided a new pickup id will be automatically generated of the form _pickup-service.id-index_. No pickup id can start by 'pickup-' as could produce collisions.
 
 ### Reward regions

@@ -42,7 +42,7 @@ You can create a key by pressing the button CREATE. A dialogue appears with diff
 ## Test mode
 The test mode is intended for development purposes only. 
 
-It can be used to check if the request arrives correctly and is formatted correctly. The optimizer sends a response to the request without any cost on the user's quota. 
+It can be used to check if the server recieves the request with the propper format. Flake will return a fake response with no cost applied for the user. 
 
 The test mode is a property of an API Key and it can be activated and deactivated at any time by the user. 
 
