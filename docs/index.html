@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Highway Docs</title>
+    <link rel="icon" href="_media/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"
+    />
+    <style>
+      body {
+        font-family: "Work Sans", sans-serif;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <title>SmartMonkey's Knowledge Base</title>
-  <link rel="icon" href="_media/favicon.ico">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  <style>
-    body {
-      font-family: 'Work Sans', sans-serif;
-      color: #333940;
-      --theme-color: #FF8200
-    }
+      p img {
+        border: 1px solid #ededed;
+      }
 
-    p img {
-      border: 1px solid #EDEDED;
-    }
+      li img {
+        border: 1px solid #ededed;
+      }
+    </style>
+  </head>
 
-    li img {
-      border: 1px solid #EDEDED;
-    }
-  </style>
-</head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: "Highway",
+        search: "auto",
+        // repo: '',
+        auto2top: true,
+        loadSidebar: true,
+        alias: {
+          "/.*/_sidebar.md": "/_sidebar.md"
+        },
+        logo: "/_media/logo.png",
+        executeScript: true,
 
-<body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: 'SmartMonkey',
-      search: 'auto',
-      // repo: '',
-      auto2top: true,
-      loadSidebar: true,
-      alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
-      },
-      logo: '/_media/logo.png',
-      executeScript: true,
-
-      loadNavbar: true,
-      mergeNavbar: true,
-      maxLevel: 4,
-      subMaxLevel: 2,
-      ga: 'UA-59390987-1'
-    }
-  </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-  <script src="//unpkg.com/prismjs/components/prism-json.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
-</body>
-
+        loadNavbar: true,
+        mergeNavbar: true,
+        maxLevel: 4,
+        subMaxLevel: 2,
+        ga: "UA-59390987-1"
+      };
+    </script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-json.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  </body>
 </html>

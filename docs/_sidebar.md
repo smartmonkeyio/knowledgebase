@@ -1,22 +1,15 @@
-- SmartMonkey Docs
-    - [Index](/)
-- Highway Lite
-    - [Getting Started](/highway_lite/getting_started.md)
-    <!-- - [Examples](/highway_lite/examples.md) -->
-    - [Pricing](/highway_lite/pricing.md)
-    - [FAQs](/highway_lite/FAQ.md)
-
-- Flake
-    <!-- - [authentication](/flake/authentication.md) -->
-    - [Getting Started](/flake/getting_started.md)
-    - [Route Optimizer V1](/flake/optimizer-v1.md)
-    <!-- - [Place Profiler V1](/flake/place-profiler-v1.md) -->
-    - [Examples](/flake/examples.md)
-    <!-- - [Places Profiler V1](/flake/optimization/README.md) -->
-    - [FAQs](/flake/FAQ.md)
-    <!-- - [Pricing](/flake/pricing.md) -->
-    - [Integrations](/flake/integrations.md)
-
-- Highway
-    <!-- - [Ayuda (castellano)](/highway/help_es.md) -->
-    - [Help](/highway/help_en.md)
+- Highway Docs
+  - [Home](/)
+- Planning
+  - [Overview](planning/overview.md)
+  - [Set up a plan](/planning/set_up_a_plan.md)
+  - [Optimizing]()
+  - [Status lifecycle](/)
+  - [Live tracking](/)
+- Clients
+  - [Overview](/highway/help_en.md)
+- Vehicles
+  - [Overview](/highway/help_en.md)
+- Developer
+  - [Quickstart](/developer/quickstart.md)
+  - [Webhooks](/)
