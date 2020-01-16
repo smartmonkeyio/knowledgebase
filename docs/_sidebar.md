@@ -1,15 +1,16 @@
 - Highway Docs
   - [Home](/)
-- Planning
+- :globe_with_meridians: Planning
   - [Overview](planning/overview.md)
   - [Set up a plan](/planning/set_up_a_plan.md)
-  - [Optimizing]()
-  - [Status lifecycle](/)
-  - [Live tracking](/)
-- Clients
-  - [Overview](/highway/help_en.md)
-- Vehicles
-  - [Overview](/highway/help_en.md)
-- Developer
+  - [Optimization insights](/planning/optimization_insights.md)
+  - [Status lifecycle](/planning/status_lifecycle.md)
+  - [Live tracking](/planning/live_tracking.md)
+- :round_pushpin: Clients
+  - [Overview](/clients/overview.md)
+- :truck: Vehicles
+  - [Overview](/vehicles/overview.md)
+- :space_invader: Developer
   - [Quickstart](/developer/quickstart.md)
-  - [Webhooks](/)
+  - [Webhooks](/developer/webhooks.md)
+  - [Create Webhooks](/developer/create_webhooks.md)

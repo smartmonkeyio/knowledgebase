@@ -1,3 +1,5 @@
+!> This guide is **under construction**, our monkeys are working hard to bring it to you as soon as possible.
+
 # Development quickstart
 
 **Get up and running with Highway API and start developing your own integration**
@@ -20,8 +22,21 @@ If you can't see your keys in the user profile, this means that you don't have H
 
 ## 2. Install a client library
 
-## 2. Make a test API request
+## 3. Make a test API request
 
 To check that your integration is working correctly, make a test API request using your test secret key to get a list of available plans.
 
 You have to replace `{PRIVATE_KEY}` with your own key.
+
+```bash
+curl "http://localhost:8090/api/v1/plans\
+?private_key=priv_zWBZEPmNc9phMQ9oQ-Q0eSuD~UY4pMcfTZ4rWZ4SWVAnTsiUkUsTiTvJmJHc.Joa"
+```
+
+If everything worked fine you should receive as a return a paginated list of your plans. You are ready to begin integrating Highway in your system.
+
+## See also
+
+Read how to integrate Highway modules
+
+- [Planning Overview](/planning/overview.md)

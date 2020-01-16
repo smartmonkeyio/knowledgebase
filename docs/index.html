@@ -26,6 +26,10 @@
       li img {
         border: 1px solid #ededed;
       }
+      .emoji {
+        border: none;
+        height: 18px;
+      }
     </style>
   </head>
 
@@ -45,9 +49,9 @@
         executeScript: true,
 
         loadNavbar: true,
-        mergeNavbar: true,
-        maxLevel: 4,
-        subMaxLevel: 2,
+        mergeNavbar: false,
+        maxLevel: 2,
+        subMaxLevel: 1,
         ga: "UA-59390987-1"
       };
     </script>
@@ -57,5 +61,6 @@
     <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
     <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
     <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+    <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   </body>
 </html>
